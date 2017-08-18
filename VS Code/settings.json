@@ -1,5 +1,4 @@
 {
-    "workbench.welcome.enabled": false,
     "workbench.colorTheme": "Material",
     "workbench.iconTheme": "eq-material-theme-icons",
     "editor.tabSize": 2,
@@ -7,5 +6,19 @@
     "git.autofetch": false,
     "editor.fontFamily": "'Roboto Mono','Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
     "git.enableSmartCommit": true,
-    "extensions.ignoreRecommendations": false
+    "extensions.ignoreRecommendations": false,
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html",
+        "typescript": "html",
+        "php": "html"
+    },
+    "window.zoomLevel": 0,
+    "editor.fontSize": 14,
+    "typescript.check.npmIsInstalled": false,
+    "editor.wordWrap": "on",
+    "editor.tabCompletion": true,
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "terminal.integrated.fontFamily": "Roboto Mono Medium for Powerline",
+    "workbench.startupEditor": "newUntitledFile"
 }

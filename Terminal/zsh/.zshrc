@@ -5,8 +5,10 @@
   export ZSH=/home/levi/.oh-my-zsh
   export PATH=~/npm-global/bin:$PATH
   export PATH=~/.composer/vendor/bin:$PATH
-  export JAVA_HOME=/usr/local/jdk1.7.0_13
+  export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
   export PATH=$PATH:$JAVA_HOME/bin
+  export ANDROID_HOME=~/Android/Sdk
+  export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
